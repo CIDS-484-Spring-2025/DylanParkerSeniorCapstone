@@ -3,7 +3,7 @@
 ## Overview
 This project is a live sports score website that displays schedules, live game scores, and betting odds for selected sports. Users can navigate between different sports and view relevant game data.
 
-###Prototype link
+### Prototype link
 - **Static Web:** [Link](https://thankful-river-07a417610.4.azurestaticapps.net/)
 
 ### Web API Link
