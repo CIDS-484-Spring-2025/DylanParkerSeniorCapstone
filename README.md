@@ -3,6 +3,7 @@
 ## Overview
 This project is a live sports score website that displays schedules, live game scores, and betting odds for selected sports. Users can navigate between different sports and view relevant game data.
 
+For my project I will recreate everything from scratch since there are a lot of files and folders that are not needed. Will make everything more organized. The main components of this are in controllers folder & ./client/fetch-api-app
 ### Prototype link
 - **Static Web:** [Link](https://thankful-river-07a417610.4.azurestaticapps.net/)
 
