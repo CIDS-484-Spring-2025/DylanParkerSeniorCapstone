@@ -2,7 +2,7 @@
 
 Here is the video overview: 
 
-https://cdnapisec.kaltura.com/p/2370711/embedPlaykitJs/uiconf_id/54949472?iframeembed=true&amp;entry_id=1_nnzralrn&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_z5xz9xgd%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D' 
+https://cdnapisec.kaltura.com/p/2370711/embedPlaykitJs/uiconf_id/54949472?iframeembed=true&amp;entry_id=1_nnzralrn&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_z5xz9xgd%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D' ](https://cdnapisec.kaltura.com/p/2370711/embedPlaykitJs/uiconf_id/54949472?iframeembed=true&entry_id=1_nnzralrn&config%5Bprovider%5D=%7B%22widgetId%22%3A%221_z5xz9xgd%22%7D&config%5Bplayback%5D=%7B%22startTime%22%3A0%7D)
 
 
 
