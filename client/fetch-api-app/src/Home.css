@@ -1,71 +1,103 @@
+/* Home.css */
+
+/* General styles for the homepage */
 .Home {
-    text-align: center;
-  }
-  
-  .App-header {
-    background-color: #282c34;
-    padding: 20px;
-    color: white;
-    font-size: 24px;
-  }
-  
-  /* Main image */
-  .main-image img {
-    width: 60%;
-    max-width: 800px;
-    margin: 20px auto;
-    display: block;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Sports button tabs */
-  .sports-tabs {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-  }
-  
-  .sport-tab {
-    background-color: #333;
-    color: white;
-    font-size: 18px;
-    border: none;
-    padding: 15px;
-    margin: 10px;
-    cursor: pointer;
-    border-radius: 8px;
-    transition: 0.3s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 150px;
-  }
-  
-  .sport-tab img {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 8px;
-  }
-  
-  .sport-tab:hover {
-    background-color: #61dafb;
-    transform: scale(1.05);
-  }
-  .home-button {
-    background-color: #333;
-    color: white;
-    font-size: 16px;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 8px;
-    transition: background-color 0.3s;
-    margin-top: 20px;
-  }
-  
-  .home-button:hover {
-    background-color: #61dafb;
-  }
-    
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.sports-tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sport-tab {
+  background-color: #444;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sport-tab:hover {
+  background-color: #888;
+}
+
+.sport-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.main-image img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Scores.css */
+
+.Scores {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.home-button {
+  padding: 10px 20px;
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.home-button:hover {
+  background-color: #888;
+}
+
+.news-section, .scoreboard-section {
+  margin: 20px 0;
+}
+
+.news-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.news-section li {
+  margin-bottom: 10px;
+}
+
+.news-section a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.news-section a:hover {
+  text-decoration: underline;
+}
+
+.scoreboard-section .game {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.scoreboard-section .game h4 {
+  margin-bottom: 10px;
+}
+
+.scoreboard-section .game p {
+  margin: 5px 0;
+}

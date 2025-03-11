@@ -1,0 +1,51 @@
+/* Scores.module.css */
+.scoreboard {
+    margin-top: 20px;
+  }
+  
+  .game {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    color: #000000;
+    font-size: 1.2rem;
+  }
+  
+  .scores {
+    margin-top: 10px;
+  }
+  
+  .scores p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between; /* Align the teams to the left and scores to the right */
+    align-items: center;
+  }
+  
+  .team-name {
+    font-weight: bold;
+    color: #333;
+    flex: 1; /* Ensures that the team names take up all available space on the left */
+  }
+  
+  .score {
+    font-weight: bold;
+    color: #671f05;
+    font-size: 1.2rem;
+    margin-left: 20px;
+  }
+  
+  .status p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  
+  
