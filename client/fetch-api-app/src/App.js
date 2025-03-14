@@ -8,9 +8,6 @@ import Scores from './Scores';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Sports Odds</h1>
-      </header>
 
       <Routes>
         <Route path="/" element={<Home />} />
