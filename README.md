@@ -1,8 +1,7 @@
 # Live Sports Score Website with Betting Odds
 
 Milestone 1 Overview: 
-<iframe id="kaltura_player" src='https://cdnapisec.kaltura.com/p/2370711/embedPlaykitJs/uiconf_id/54949472?iframeembed=true&amp;entry_id=1_nnzralrn&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_919ssuzc%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D'  style="width: 608px;height: 342px;border: 0;" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="MileStone1-Overview"></iframe>
-
+'https://cdnapisec.kaltura.com/p/2370711/embedPlaykitJs/uiconf_id/54949472?iframeembed=true&amp;entry_id=1_nnzralrn&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_919ssuzc%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D' 
 Milestone 2 Overview: 
 <iframe id="kaltura_player" src='https://cdnapisec.kaltura.com/p/2370711/embedPlaykitJs/uiconf_id/54949472?iframeembed=true&amp;entry_id=1_qgttuucu&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_y5vc0zr8%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D'  style="width: 608px;height: 342px;border: 0;" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="Milestone 2 "></iframe>
 
