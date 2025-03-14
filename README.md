@@ -1,10 +1,10 @@
 # Live Sports Score Website with Betting Odds
 
 Milestone 1 Overview: 
-https://cdnapisec.kaltura.com/p/2370711/embedPlaykitJs/uiconf_id/54949472
+https://cdnapisec.kaltura.com/p/2370711/embedPlaykitJs/uiconf_id/54949472?
 
 Milestone 2 Overview: 
-https://cdnapisec.kaltura.com/p/2370711/embedPlaykitJs/uiconf_id/54949472
+https://cdnapisec.kaltura.com/p/2370711/embedPlaykitJs/uiconf_id/54949472?
 
 
 ## Overview
