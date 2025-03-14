@@ -10,6 +10,9 @@ This project is a live sports score website that displays schedules, live game s
 
  The main components of this are in controllers folder & ./client/fetch-api-app
 
+## Update: 
+I have fully recreated the web app. I have not launched it yet to microsoft azure but I do by the time milestone 3 is due. For this I recreated the homepage for it looks more organized and has a lot more sports that you can choose from. As well I implemted the live scores for each game that is currently on depending on what sport you pick. In the section as well I have sports news on the sidebar and it changes the news based off of what sport you pick. 
+
 
 ## Current Progress:
 
@@ -37,4 +40,3 @@ This project is a live sports score website that displays schedules, live game s
 - Used for API testing:
   - Local Web API testing.
   - Third-party **odds API** testing.
-  - Deployed Web API validation.
