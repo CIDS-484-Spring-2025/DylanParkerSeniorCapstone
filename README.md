@@ -27,8 +27,6 @@ I have fully recreated the web app. I have not launched it yet to microsoft azur
 - Developed a **.NET Core** Web API using **Visual Studio Code**.
 - Implemented controllers to call the **odds API** to fetch sports and other related data.
 - Tested the API locally using **Postman**, verifying JSON responses.
-- **Deployed the Web API** to **Microsoft Azure App Service**.
-- Configured **GitHub Actions** for automated deployment to the App Service.
 - Verified the running API using **Postman** and **Swagger documentation**.
 
 ### React.js - Frontend:
