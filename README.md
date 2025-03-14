@@ -36,14 +36,7 @@ For my project I will recreate everything from scratch since there are a lot of 
 
 ### GitHub:
 - **Pushed project** to **GitHub**.
-- Followed **GitHub Flow** branching strategy.
-- Created feature branches and used **Pull Requests**.
-- Configured **GitHub Actions** for CI/CD.
-
-### Microsoft Azure:
-- **Provisioned Static Web App** (frontend) and **App Service** (backend).
-- Linked both services to **GitHub**.
-- Configured **YAML pipelines** for automated deployment.
+- Followed GitHub Flow branching strategy.
 
 ### Postman:
 - Used for API testing:
