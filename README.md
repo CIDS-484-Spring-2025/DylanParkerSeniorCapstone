@@ -1,7 +1,9 @@
 # Live Sports Score Website with Betting Odds
 
-Here is the video overview: 
+Milestone 1 Overview: 
+https://cdnapisec.kaltura.com/p/2370711/embedPlaykitJs/uiconf_id/54949472
 
+Milestone 2 Overview: 
 https://cdnapisec.kaltura.com/p/2370711/embedPlaykitJs/uiconf_id/54949472
 
 
@@ -12,6 +14,11 @@ This project is a live sports score website that displays schedules, live game s
 
 ## Update: 
 I have fully recreated the web app. I have not launched it yet to microsoft azure but I do by the time milestone 3 is due. For this I recreated the homepage for it looks more organized and has a lot more sports that you can choose from. As well I implemted the live scores for each game that is currently on depending on what sport you pick. In the section as well I have sports news on the sidebar and it changes the news based off of what sport you pick. 
+
+## Things I want to add: 
+- Implement the live betting odds
+- Possibly include the record next to each team in the scoreboard
+- Add standings for every team 
 
 
 ## Current Progress:
@@ -30,7 +37,7 @@ I have fully recreated the web app. I have not launched it yet to microsoft azur
 - Styled the interface using **.css files**.
 - Used **React StrictMode** for development debugging.
 - Integrated **BrowserRouter** for client-side routing.
-- Displays sports schedules and betting odds.
+- Displays sports schedules and live scores.
 
 ### GitHub:
 - **Pushed project** to **GitHub**.
