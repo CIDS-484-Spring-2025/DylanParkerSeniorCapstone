@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .Home {
   text-align: center;
 }
 
+/* Cool SportSphere Title */
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #ffcc00, #ff5733);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Sport Selection Section */
 .sport-selection {
   margin-top: 20px;
 }
@@ -16,16 +31,22 @@
   padding: 10px 20px;
   margin-top: 10px;
   cursor: pointer;
+  background: #ff5733;
+  color: white;
+  border: none;
+  transition: background 0.3s ease-in-out;
 }
 
 .sport-selection button:hover {
-  background-color: #61dafb;
+  background-color: #ffcc00;
 }
 
+/* Scores Page */
 .Scores {
   text-align: center;
 }
 
+/* Scoreboard */
 .scoreboard {
   display: flex;
   flex-wrap: wrap;
@@ -45,6 +66,5 @@
   font-size: 18px;
   margin-bottom: 10px;
 }
-
 
 

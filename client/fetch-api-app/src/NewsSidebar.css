@@ -1,0 +1,101 @@
+/* News Sidebar Styles */
+.news-sidebar {
+  width: 300px;
+  padding: 20px;
+  background-color: #f3f7f9; /* Light grayish-blue background */
+  border-left: 1px solid #ddd;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
+  z-index: 1000; /* Keeps sidebar on top of content */
+}
+
+.news-sidebar:hover {
+  background-color: #e9f2f7; /* Slight darker shade on hover */
+}
+
+.news-sidebar h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+  text-transform: uppercase;
+  border-bottom: 2px solid #007bff; /* Blue underline */
+  padding-bottom: 10px;
+  background-color: #eef7ff; /* Soft light blue background for the heading */
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.news-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-sidebar li {
+  margin-bottom: 10px;
+}
+
+.news-sidebar a {
+  text-decoration: none;
+  color: #007bff; /* Blue link color */
+  font-weight: 500;
+  font-size: 1.1rem;
+  display: block; /* Makes the link fill the container for easier clicking */
+  padding: 8px 0;
+  transition: text-decoration 0.3s ease, color 0.3s ease;
+}
+
+.news-sidebar a:hover {
+  text-decoration: underline;
+  color: #004085; /* Darker blue for hover effect */
+  background-color: #d3e4f1; /* Light blue background on hover */
+  border-radius: 4px;
+}
+
+.news-sidebar .fa {
+  margin-right: 10px; /* Adds space between icon and text */
+  font-size: 1.3rem; /* Slightly larger icon */
+  color: #007bff;
+}
+
+.news-sidebar a:hover .fa {
+  color: #004085; /* Change icon color on hover */
+}
+
+.news-sidebar .loading,
+.news-sidebar .error {
+  font-size: 1rem;
+  color: #555;
+}
+
+.news-sidebar .loading {
+  font-style: italic;
+}
+
+.news-sidebar .error {
+  color: #d9534f; /* Red color for error messages */
+  font-weight: bold;
+}
+
+/* Optional: Media Query for responsive design */
+@media (max-width: 768px) {
+  .news-sidebar {
+    width: 250px; /* Adjust width for smaller screens */
+    padding: 15px;
+  }
+
+  .news-sidebar h3 {
+    font-size: 18px;
+  }
+
+  .news-sidebar a {
+    font-size: 1rem; /* Smaller font size on mobile */
+  }
+}
