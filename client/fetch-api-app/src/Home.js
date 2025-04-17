@@ -21,20 +21,15 @@ function Home() {
 
   return (
     <div className="home">
-      {/* Header Section */}
       <header className="header">
-        <h1>SportSphere</h1>
+        <h1 className="title">SportSphere</h1>
+          <nav className="top-nav">
+            <button onClick={() => navigate('/teaminfo')} className="nav-button">Team Information</button>
+          </nav>
       </header>
 
-      {/* Banner Section */}
-      <div className="banner">
-        <img src="/images/sports-banner-UI.jpeg" alt="Sports Banner" />
-        <div className="banner-overlay">
-          <h2>Get the Latest Scores, Stats & Odds</h2>
-        </div>
-      </div>
-
       {/* Professional Sports Section */}
+      <h2>Get the Latest Scores & Odds</h2>
       <h2 className="section-title">Professional Sports</h2>
       <div className="sports-grid">
         {professionalSports.map((sport) => (
@@ -67,7 +62,7 @@ function Home() {
       {/* Footer Section */}
       <footer className="footer">
         <p>&copy; 2025 Sports Scores. All Rights Reserved.</p>
-        <p><a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service">Terms of Service</a></p>
+        <p>Privacy Policy | Terms of Service</p>
       </footer>
     </div>
   );

@@ -30,15 +30,17 @@ function NewsSidebar() {
   }, [newsUrl]);
 
   return (
+    
     <div className="news-sidebar">
-      <h3>Latest {league.toUpperCase()} News</h3>
-      {loading && <p>Loading...</p>}
-      {error && <p style={{ color: 'red' }}>Error: {error.message}</p>}
+      <h3>Latest {league ? league.toUpperCase() : 'Sports'} News</h3>
+      {loading && <p className="loading">Loading...</p>}
+      {error && <p className="error">Error: {error.message}</p>}
       <ul>
         {news.slice(0, 5).map((article, index) => (
-          <li key={index}>
+          <li key={index} className="news-item">
             <a href={article.links.web.href} target="_blank" rel="noopener noreferrer">
-              {article.headline}
+              <span className="headline">{article.headline}</span>
+              <span className="read-more">Read More →</span>
             </a>
           </li>
         ))}
