@@ -1,10 +1,7 @@
 # Live Sports Score Website with Betting Odds
 
-Milestone 1 Overview: 
-<iframe id="kaltura_player" src='https://cdnapisec.kaltura.com/p/2370711/embedPlaykitJs/uiconf_id/54949472?iframeembed=true&amp;entry_id=1_nnzralrn&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_919ssuzc%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D'  style="width: 608px;height: 342px;border: 0;" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="MileStone1-Overview"></iframe>
+Milestone 3 Overview: 
 
-Milestone 2 Overview: 
-<iframe id="kaltura_player" src='https://cdnapisec.kaltura.com/p/2370711/embedPlaykitJs/uiconf_id/54949472?iframeembed=true&amp;entry_id=1_qgttuucu&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_y5vc0zr8%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D'  style="width: 608px;height: 342px;border: 0;" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="Milestone 2 "></iframe>
 
 
 ## Overview
@@ -13,15 +10,20 @@ This project is a live sports score website that displays schedules, live game s
  The main components of this are in controllers folder & ./client/fetch-api-app
 
 ## Update: 
-I have fully recreated the web app. I have not launched it yet to microsoft azure but I do by the time milestone 3 is due. For this I recreated the homepage for it looks more organized and has a lot more sports that you can choose from. As well I implemted the live scores for each game that is currently on depending on what sport you pick. In the section as well I have sports news on the sidebar and it changes the news based off of what sport you pick. 
+I have added a new feature to my website which features team information. You are able to select a league that you want, then a team and it will give you a list of information about the team such as roster, schedule, and mroe. I dont think the specific api that i am using has the exact stuff, but instead has links towards that information that a person can click on and it will send you to the espn website with the information. I was going to launch my website through azure as well but my account subscription ended so I am going to have to make a new account for that. 
 
 ## Things I want to add: 
-- Implement the live betting odds
-- Possibly include the record next to each team in the scoreboard
-- Add standings for every team 
+
+- Launch my api and website through microsoft azure.
+- Add another key feature to my website. (To be determined). 
 
 
 ## Current Progress:
+
+###Features: 
+- Created live sport scores with each team that is playing. 
+- Created a schedule for the day of what teams are playing.
+- Added what the betting line is for the game.
 
 ### Web API - Backend:
 - Developed a **.NET Core** Web API using **Visual Studio Code**.
