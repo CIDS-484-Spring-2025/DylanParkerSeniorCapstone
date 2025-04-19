@@ -20,7 +20,7 @@ I have added a new feature to my website which features team information. You ar
 
 ## Current Progress:
 
-###Features: 
+### Features: 
 - Created live sport scores with each team that is playing. 
 - Created a schedule for the day of what teams are playing.
 - Added what the betting line is for the game.
