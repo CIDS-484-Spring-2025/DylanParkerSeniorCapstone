@@ -1,35 +1,33 @@
 /* News Sidebar Styles */
 .news-sidebar {
-  width: 300px;
+  width: 320px;
   padding: 20px;
-  background-color: #f3f7f9; /* Light grayish-blue background */
-  border-left: 1px solid #ddd;
+  background-color: #1D3557; /* Dark blue background for consistency */
+  border-left: 2px solid #E63946; /* Red accent border */
   position: fixed;
   right: 0;
   top: 0;
   height: 100vh;
   overflow-y: auto;
   transition: background-color 0.3s ease;
-  border-radius: 8px;
-  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
-  z-index: 1000; /* Keeps sidebar on top of content */
-}
-
-.news-sidebar:hover {
-  background-color: #e9f2f7; /* Slight darker shade on hover */
+  border-radius: 8px 0 0 8px;
+  box-shadow: -2px 0 15px rgba(0, 0, 0, 0.4); /* Stronger shadow for depth */
+  z-index: 1000;
+  color: #F1FAEE; /* Off-white text for contrast */
 }
 
 .news-sidebar h3 {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 700;
   margin-bottom: 15px;
-  color: #333;
+  color: #E63946; /* Red header for contrast */
   text-transform: uppercase;
-  border-bottom: 2px solid #007bff; /* Blue underline */
+  border-bottom: 2px solid #E63946;
   padding-bottom: 10px;
-  background-color: #eef7ff; /* Soft light blue background for the heading */
-  padding: 10px 15px;
-  border-radius: 4px;
+  background-color: #1D3557; /* Dark blue header background */
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
 }
 
 .news-sidebar ul {
@@ -38,56 +36,67 @@
   margin: 0;
 }
 
-.news-sidebar li {
-  margin-bottom: 10px;
+.news-item {
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 8px;
 }
 
 .news-sidebar a {
   text-decoration: none;
-  color: #007bff; /* Blue link color */
+  color: #F1FAEE; /* Light color for links */
   font-weight: 500;
-  font-size: 1.1rem;
-  display: block; /* Makes the link fill the container for easier clicking */
-  padding: 8px 0;
-  transition: text-decoration 0.3s ease, color 0.3s ease;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  transition: all 0.3s ease;
+  background-color: #1D3557; /* Dark background for items */
+  border-radius: 6px;
 }
 
 .news-sidebar a:hover {
-  text-decoration: underline;
-  color: #004085; /* Darker blue for hover effect */
-  background-color: #d3e4f1; /* Light blue background on hover */
-  border-radius: 4px;
+  text-decoration: none;
+  background-color: #333747; /* Slightly lighter shade for hover */
+  color: #ffffff;
 }
 
-.news-sidebar .fa {
-  margin-right: 10px; /* Adds space between icon and text */
-  font-size: 1.3rem; /* Slightly larger icon */
-  color: #007bff;
+.news-sidebar .headline {
+  flex: 1;
 }
 
-.news-sidebar a:hover .fa {
-  color: #004085; /* Change icon color on hover */
+.news-sidebar .read-more {
+  font-size: 0.9rem;
+  color: #9f9c93;
+  transition: transform 0.3s ease;
 }
 
+.news-sidebar a:hover .read-more {
+  transform: translateX(5px);
+}
+
+/* Loading and Error States */
 .news-sidebar .loading,
 .news-sidebar .error {
   font-size: 1rem;
-  color: #555;
+  text-align: center;
+  padding: 10px;
 }
 
 .news-sidebar .loading {
-  font-style: italic;
+  color: #bbb;
 }
 
 .news-sidebar .error {
-  color: #d9534f; /* Red color for error messages */
+  color: #ff4d4d; /* Red color for error state */
   font-weight: bold;
 }
 
-/* Optional: Media Query for responsive design */
+/* Responsive Design */
 @media (max-width: 768px) {
   .news-sidebar {
-    width: 250px; /* Adjust width for smaller screens */
+    width: 280px;
     padding: 15px;
   }
 
@@ -96,6 +105,6 @@
   }
 
   .news-sidebar a {
-    font-size: 1rem; /* Smaller font size on mobile */
+    font-size: 0.95rem;
   }
 }
