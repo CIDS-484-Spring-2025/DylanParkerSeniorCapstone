@@ -1,7 +1,6 @@
 # Live Sports Score Website with Betting Odds
 
-Milestone 3 Overview: 
-<iframe id="kaltura_player" src='https://cdnapisec.kaltura.com/p/2370711/embedPlaykitJs/uiconf_id/54949472?iframeembed=true&amp;entry_id=1_gsod3ygl&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_rebshdu1%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D'  style="width: 608px;height: 342px;border: 0;" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="DylanParker-Milestone3"></iframe>
+Final Video: 
 
 
 ## Overview
@@ -10,12 +9,10 @@ This project is a live sports score website that displays schedules, live game s
  The main components of this are in controllers folder & ./client/fetch-api-app
 
 ## Update: 
-I have added a new feature to my website which features team information. You are able to select a league that you want, then a team and it will give you a list of information about the team such as roster, schedule, and mroe. I dont think the specific api that i am using has the exact stuff, but instead has links towards that information that a person can click on and it will send you to the espn website with the information. I was going to launch my website through azure as well but my account subscription ended so I am going to have to make a new account for that. 
+I havent been able to launch my website because my subscription with azure had ended and I dont want to pay for it. So instead I added my last feature to this. I was pretty limited with the api that I was using and pretty much had used all of the API data that I could from it, so I created a Sports matching game instead. You select a tile and the tile will flip around and and show you a sport. Once you see the sport you will select another tile that will flip around. If they are the same sport then they will stay flipped, but if they are not the same then they will flip back around. 
 
 ## Things I want to add: 
-
 - Launch my api and website through microsoft azure.
-- Add another key feature to my website. (To be determined). 
 
 
 ## Current Progress:
@@ -24,6 +21,8 @@ I have added a new feature to my website which features team information. You ar
 - Created live sport scores with each team that is playing. 
 - Created a schedule for the day of what teams are playing.
 - Added what the betting line is for the game.
+- Added a Team Information page to get more information on what team you want to know about.
+- Added a fun sports matching game to just make it a little different than a regular live sports website. 
 
 ### Web API - Backend:
 - Developed a **.NET Core** Web API using **Visual Studio Code**.
